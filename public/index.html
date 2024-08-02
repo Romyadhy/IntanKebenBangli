@@ -6,14 +6,16 @@
     <link href="https://romyadhy.github.io/IntanKebenBangli/src/output.css" rel="stylesheet" />
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.css" />
     <link rel="stylesheet" href="/src/main.css">
+    <!-- Feather Icons -->
+    <script src="https://unpkg.com/feather-icons"></script>
     <title>Intan Keben Bangli</title>
   </head>
-  <body>
+  <body class="scroll-smooth focus:scroll-auto">
    <!-- Navbar Section -->
 <nav class="shadow fixed top-0 left-0 right-0 bg-white z-10" data-aos="fade-down" data-aos-duration="1500">
-  <div class="container px-6 py-4 mx-auto md:flex md:justify-between md:items-center">
+  <div class="container px-6 py-1 mx-auto md:flex md:justify-between sm:items-center">
     <div class="flex items-center justify-center md:justify-between w-full">
-      <img src="/img/IntanKebenLogo.png" alt="Logo" width="150" height="150" class="logo">
+      <img src="/img/logoStore.png" alt="Logo" width="150" height="150" class="logo">
     </div>
     <div class="flex flex-col mt-2 px-2 py-2 bg-gray-900 text-white font-semibold rounded hover:bg-gray-600 transition text-center cursor-pointer">
       <p>Hubungi Kami</p>
@@ -24,18 +26,18 @@
 
     
      <!-- Landing Section -->
-     <section class="sm:grid sm:grid-cols-2 mt-[5rem] lg:mt-[8rem]">
+     <section class="sm:grid sm:grid-cols-2 mt-[5rem]">
       <div class="p-8 mt-[3rem] md:p-12 lg:px-16 lg:py-24">
         <div class="mx-auto max-w-xl text-center sm:text-left my-[5rem]" data-aos="fade-right" data-aos-duration="1500">
-          <h2 class="text-4xl font-bold text-gray-900">
-            Temukan Kreasi dan Keunikan dari Sokasi Intan Bangli 
+          <h2 class="text-4xl font-bold text-gray-900 text-center">
+            Temukan Kreasi dan Keunikan dari Intan Keben Bangli
           </h2>
     
           <p class="hidden text-gray-500 md:mt-4 md:block">
             Selamat datang di Intan Keben Bangli, temukan sokasi yang tidak hanya praktis tetapi juga memberikan sentuhan khas Bali yang sangat otentik.
           </p>
     
-          <div class="mt-4 md:mt-8">
+          <div class="mt-4 md:mt-8 text-center">
             <a
               href="https://shopee.co.id/sokasi-fiber-mini-22cm-free-biaya-packing-keben-bali-keben-fiber-sokasi-bali-i.72930668.7555636160?sp_atk=2f99c07c-dc40-41cb-9629-ec5a38862f27&xptdk=2f99c07c-dc40-41cb-9629-ec5a38862f27"
               class="inline-block rounded bg-gray-800 px-12 py-3 text-sm font-medium text-white transition hover:bg-gray-600 focus:outline-none focus:ring focus:ring-yellow-400"
@@ -47,7 +49,7 @@
         </div>
       </div>
     
-      <div class="mt-6 sm:mt-0 sm:flex sm:items-center sm:justify-center">
+      <div class="mt-4 sm:mt-0 sm:flex sm:items-center sm:justify-center">
         <img
           alt="foto-sokasi-intan"
           src="/img/SokasiIntan-13.jpg"
@@ -65,7 +67,7 @@
      </section>
 
     <!-- Sedia Jasa Section -->
-    <section class="my-20 margin px-4 sm:px-6 lg:px-8" data-aos="fade-up"  data-aos-duration="700">
+    <section class="mt-20 margin px-4 sm:px-6 lg:px-8" data-aos="fade-up"  data-aos-duration="700">
       <div class="flex flex-col lg-flex-row items-center justify-center">
         <div class="m-4 flex flex-col items-center">
           <img src="/img/guarantee.png" alt="icon-quality" width="100" height="100">
@@ -105,8 +107,6 @@
   </div>
 </section>
 
-
-
    <!-- Location Section -->
   <section class="flex flex-col justify-center items-center px-4 sm:px-6 lg:px-8" id="location" data-aos="fade-up"  data-aos-duration="700">
     <h2 class="text-4xl font-bold mb-6 text-center">Lokasi Penjualan</h2>
@@ -125,19 +125,97 @@
   </section>
 
 
-   <!-- Footer Section -->
-<footer class="">
-  <div class="relative mx-auto max-w-screen-xl px-4 py-8 sm:px-6 lg:px-8 lg:pt-24">
+  <!-- FAQ Section
+<section class="flex flex-col justify-center items-center px-4 sm:px-6 lg:px-8" id="faq" data-aos="fade-up" data-aos-duration="700">
+  <h2 class="text-4xl font-bold mb-6 text-center">FAQ</h2>
+  <div class="w-full max-w-4xl mx-auto">
+    <div class="faq-item border-b-2 border-gray-300 py-4">
+      <button class="faq-question text-left w-full text-lg font-semibold text-gray-900 flex justify-between items-center">
+        <span>Apa itu Sokasi?</span>
+        <i data-feather="chevron-down"></i>
+        <i class="hidden" data-feather="chevron-up"></i>
+      </button>
+      <div class="faq-answer max-h-0 overflow-hidden transition-all duration-500 ease-out mt-2 text-gray-700">
+        <p>Sokasi adalah wadah tradisional khas Bali yang biasanya digunakan untuk menyimpan dan menghidangkan makanan atau persembahan. Sokasi dari Intan Keben Bangli terbuat dari bahan berkualitas tinggi dengan desain yang otentik dan fungsional.</p>
+      </div>
+    </div>
+    <div class="faq-item border-b-2 border-gray-300 py-4">
+      <button class="faq-question text-left w-full text-lg font-semibold text-gray-900 flex justify-between items-center">
+        <span>Bagaimana cara memesan Sokasi dengan custom nama?</span>
+        <i data-feather="chevron-down"></i>
+        <i class="hidden" data-feather="chevron-up"></i>
+      </button>
+      <div class="faq-answer max-h-0 overflow-hidden transition-all duration-500 ease-out mt-2 text-gray-700">
+        <p>Anda dapat memesan Sokasi dengan custom nama melalui toko online kami di Shopee. Silakan pilih opsi "Pre-Order Custom Nama" dan masukkan nama yang diinginkan pada saat pemesanan.</p>
+      </div>
+    </div>
+    <div class="faq-item border-b-2 border-gray-300 py-4">
+      <button class="faq-question text-left w-full text-lg font-semibold text-gray-900 flex justify-between items-center">
+        <span>Apakah produk Sokasi tahan lama?</span>
+        <i data-feather="chevron-down"></i>
+        <i class="hidden" data-feather="chevron-up"></i>
+      </button>
+      <div class="faq-answer max-h-0 overflow-hidden transition-all duration-500 ease-out mt-2 text-gray-700">
+        <p>Ya, produk Sokasi kami dibuat dari bahan berkualitas tinggi yang tahan lama dan telah melalui uji kualitas yang ketat. Kami menjamin setiap produk yang kami tawarkan memiliki daya tahan yang baik.</p>
+      </div>
+    </div>
+  </div>
+</section> -->
+
+<!-- FAQ Section -->
+<section class="flex flex-col justify-center items-center px-4 mt-[5rem] sm:px-6 lg:px-8" id="faq" data-aos="fade-up" data-aos-duration="700">
+  <h2 class="text-4xl font-bold mb-6 text-center">Frequently Asked Questions/FAQ</h2>
+  <div class="w-full max-w-4xl mx-auto">
+    <div class="faq-item border-b-2 border-gray-300 py-4 ">
+      <button class="faq-question w-full text-lg font-semibold text-gray-900">
+        Apa itu Sokasi?
+      </button>
+      <div class="faq-answer hidden mt-2 text-gray-700">
+        <p>Sokasi adalah wadah tradisional khas Bali yang biasanya digunakan untuk menyimpan dan menghidangkan makanan atau persembahan. Sokasi dari Intan Keben Bangli terbuat dari bahan berkualitas tinggi dengan desain yang otentik dan fungsional.</p>
+      </div>
+    </div>
+    <div class="faq-item border-b-2 border-gray-300 py-4">
+      <button class="faq-question text-left w-full text-lg font-semibold text-gray-900">
+        Bagaimana cara memesan Sokasi dengan custom nama?
+      </button>
+      <div class="faq-answer hidden mt-2 text-gray-700">
+        <p>Anda dapat memesan Sokasi dengan custom nama melalui nomor yang ada di bagian paling atas website, atau bisa mengunjungi sosial media kami di Intagram dan Tiktok.</p>
+      </div>
+    </div>
+    <div class="faq-item border-b-2 border-gray-300 py-4">
+      <button class="faq-question text-left w-full text-lg font-semibold text-gray-900">
+        Apakah produk Sokasi tahan lama?
+      </button>
+      <div class="faq-answer hidden mt-2 text-gray-700">
+        <p>Ya, produk Sokasi kami dibuat dari bahan berkualitas tinggi yang tahan lama dan telah melalui uji kualitas yang ketat. Kami menjamin setiap produk yang kami tawarkan memiliki daya tahan yang baik.</p>
+      </div>
+    </div>
+    
+   
+  </div>
+</section>
+
+
+
+
+
+
+
+
+
+ <!-- Footer Section -->
+<footer class="bg-gray-600">
+  <div class="relative mx-auto max-w-screen-xl px-4 py-4 sm:px-6 lg:px-8 lg:pt-24">
     <div class="absolute end-4 top-4 sm:end-6 sm:top-6 lg:end-8 lg:top-8"></div>
 
     <div class="lg:flex lg:items-end lg:justify-between">
       <div>
-        <div class="flex justify-center text-gray-900 lg:justify-start">
-          <img src="/img/IntanKebenLogo.png" alt="Logo Intan Keben Bangli" height="200" width="200">
-        </div>
+        <a href="#" class="flex justify-center text-gray-900 lg:justify-start">
+          <img src="/img/logoStore.png" alt="Logo Intan Keben Bangli" height="150" width="150">
+        </a>
       </div>
 
-      <ul class="mt-12 flex flex-wrap justify-center gap-6 md:gap-8 lg:mt-0 lg:justify-end lg:gap-12">
+      <ul class=" flex flex-wrap justify-center gap-6 md:gap-8 lg:mt-0 lg:justify-end lg:gap-12">
         <li>
           <a class="text-gray-700 transition hover:text-gray-700/75 scroll-mt-52" href="#about">
             About
@@ -155,18 +233,77 @@
             Location
           </a>
         </li>
+
+        <li>
+          <a class="text-gray-700 transition hover:text-gray-700/75 scroll-mt-40" href="#faq">
+            FAQ
+          </a>
+        </li>
       </ul>
     </div>
 
-    <p class="mt-12 text-center text-sm text-gray-500 lg:text-right">
+    <div class="mt-2 mb-2 flex justify-center lg:justify-end space-x-6">
+      <a href="https://instagram.com" target="_blank" class="text-gray-700 transition hover:text-gray-700/75">
+        <i data-feather="instagram" class="w-6 h-6"></i>
+      </a>
+      <a href="https://tiktok.com" target="_blank" class="text-gray-700 transition hover:text-gray-700/75">
+        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="currentColor" class="w-6 h-6 inline-block">
+          <path d="M24,4H6C4.895,4,4,4.895,4,6v18c0,1.105,0.895,2,2,2h18c1.105,0,2-0.895,2-2V6C26,4.895,25.104,4,24,4z M22.689,13.474 c-0.13,0.012-0.261,0.02-0.393,0.02c-1.495,0-2.809-0.768-3.574-1.931c0,3.049,0,6.519,0,6.577c0,2.685-2.177,4.861-4.861,4.861 C11.177,23,9,20.823,9,18.139c0-2.685,2.177-4.861,4.861-4.861c0.102,0,0.201,0.009,0.3,0.015v2.396c-0.1-0.012-0.197-0.03-0.3-0.03 c-1.37,0-2.481,1.111-2.481,2.481s1.11,2.481,2.481,2.481c1.371,0,2.581-1.08,2.581-2.45c0-0.055,0.024-11.17,0.024-11.17h2.289 c0.215,2.047,1.868,3.663,3.934,3.811V13.474z"></path>
+        </svg>
+      </a>
+      <a href="https://shopee.com" target="_blank" class="text-gray-700 transition hover:text-gray-700/75">
+        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="currentColor" class="w-6 h-6 inline-block">
+          <path d="M25.6,6.5c-0.3-0.3-0.7-0.5-1.1-0.5h-4.5c-0.5-2.3-2.5-4-4.9-4s-4.4,1.7-4.9,4H5.6c-0.4,0-0.8,0.2-1.1,0.5 C4.1,6.8,4,7.3,4,7.7l0.7,15.2C4.8,24.7,6.2,26,7.9,26h14.1c1.7,0,3.2-1.4,3.2-3.1L26,7.7C26,7.3,25.9,6.8,25.6,6.5z M15,4 c1.3,0,2.4,0.8,2.8,2h-5.6C12.6,4.9,13.7,4,15,4z M15,22c-2.5,0-4.2-1.8-4.2-1.8l1.1-1.8c0,0,2,1.5,3.2,1.5 c1.1,0,2.1-0.6,2.1-1.4c0-0.9-0.6-1.3-2.4-1.9c-1.5-0.6-3.5-1.3-3.5-3.4c0-1.9,1.7-3.3,3.9-3.3c2.5,0,3.8,1.4,3.8,1.4l-1,1.7 c0,0-1.5-1.1-2.8-1.1c-1.1,0-1.9,0.5-1.9,1.3c0,0.6,0.6,1,2.1,1.5c1.6,0.6,3.8,1.4,3.8,3.8C19.1,20.5,17.3,22,15,22z"></path>
+        </svg>
+      </a>
+    </div>
+
+    <p class="mt-[2.5rem] text-center text-sm text-gray-500 lg:text-right">
       Copyright &copy; 2024. Dibuat oleh Tim KKN Undiksha Sulahan. All Rights Reserved.
     </p>
   </div>
 </footer>
 
+
+
+
+
+ 
+
+
+
+
+
+
 <script src="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.js"></script>
 <script>
   AOS.init();
+</script>
+
+
+<script>
+  document.addEventListener('DOMContentLoaded', function() {
+    feather.replace(); // Initialize Feather Icons
+
+    const faqItems = document.querySelectorAll('.faq-item');
+
+    faqItems.forEach(item => {
+      const question = item.querySelector('.faq-question');
+      const answer = item.querySelector('.faq-answer');
+      const icon = question.querySelector('i');
+
+      question.addEventListener('click', () => {
+        question.classList.toggle('active');
+        answer.classList.toggle('show');
+        if (answer.classList.contains('show')) {
+          icon.setAttribute('data-feather', 'chevron-up');
+        } else {
+          icon.setAttribute('data-feather', 'chevron-down');
+        }
+        feather.replace(); // Update Feather Icons
+      });
+    });
+  });
 </script>
 
 

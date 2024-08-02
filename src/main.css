@@ -11,6 +11,14 @@ nav {
     }
   }
 
+  @media (min-width: 460px) {
+    .coba {
+      margin-right: auto;
+      margin-left: auto;
+    }
+    
+  }
+
 #about, #gallery, #location{
     padding-top: 6rem;
 }
@@ -18,3 +26,47 @@ nav {
 .margin {
     margin-top: 2.5rem;
 }
+
+.faq-question {
+  cursor: pointer;
+}
+
+.faq-question:after {
+  content: '\25BC'; /* Unicode karakter untuk panah bawah */
+  float: right;
+}
+
+.faq-question.active:after {
+  content: '\25B2'; /* Unicode karakter untuk panah atas */
+}
+
+.faq-answer {
+  display: none;
+}
+
+.faq-answer.show {
+  display: block;
+}
+
+/* Tambahan CSS untuk garis pembatas */
+.faq-item + .faq-item {
+  border-top: 1px solid #d1d5db; /* Warna abu-abu sesuai dengan Tailwind CSS */
+}
+
+.faq-item {
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+}
+
+
+
+  footer .space-x-6 > a {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 8px; /* Adjust padding as needed */
+    margin: 0 8px; /* Adjust margin as needed */
+  }
+
+
+
