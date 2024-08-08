@@ -65,3 +65,23 @@ footer .space-x-6 > a {
   margin-left: 0 8px;
   margin-right: 0 8px;
 }
+
+
+.iconborder {
+  border-style: solid;
+  border-color: black;
+  border-width: 2px; 
+  padding: 0.5rem; 
+  border-radius: 50%;
+  transition: border-color 0.3s ease, padding 0.3s ease, background-color 0.3s ease, stroke 0.3s ease; 
+}
+
+.iconborder:hover {
+  border-color: rgb(104, 101, 101);
+  padding: 0.75rem; 
+  background-color: #212529; 
+}
+
+.iconborder:hover svg {
+  stroke: white; 
+}
